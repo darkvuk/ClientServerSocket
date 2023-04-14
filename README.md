@@ -8,10 +8,9 @@ server) koji mogu razmjenjivati:
  
 U sklopu serverskog procesa otvoren je server soket na portu 13. Kreirana su
 dva foldera za skladištenje slika, po jedan za servera i klijenta.
-
-
-
-## Komunikacija se odvija po sljedećem protokolu:
+<br />
+<br />
+### Protokol komunikacije
 1) Klijent šalje zahtjev za konekcijom ka odabranom portu na serveru.
 2) Server prihvata konekciju i otvara soket za komunikaciju.
 3) Klijentu se na konzoli štampa prompt „Klijent: “ i čeka se na unos poruke. Klijent u
